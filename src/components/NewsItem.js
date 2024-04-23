@@ -12,9 +12,9 @@ export class NewsItem extends Component {
     // end of props
     return (
       <div>
-        <div className="card" style={{width: "18rem"}}>   
-          <img src={imgUrl} className="card-img-top" alt="..." />
-          <div className="card-body">
+        <div className="card" style={{width: "20rem"}}>   
+          <img src={imgUrl} className="card-img-top" alt="..." style={{maxHeight:"15rem"}}/>
+          <div className="card-body" style={{maxHeight:"18rem"}}>
             <h5 className="card-title">{title}</h5>
             <p className="card-text">
               {description}
